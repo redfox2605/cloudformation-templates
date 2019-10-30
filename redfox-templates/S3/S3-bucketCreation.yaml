@@ -1,0 +1,8 @@
+---
+Resources:
+  MyS3Bucket:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      # Can be Private, PublicRead, PublicReadWrite, AuthenticatedRead, LogDeliveryWrite, BucketOwnerRead, BucketOwnerFullControl, or AwsExecRead.
+      AccessControl: PublicRead
+      BucketName: "redfox-123456"

@@ -1,0 +1,1 @@
+#This is a repo containing some usefull templates for cloud formation
